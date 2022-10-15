@@ -1,0 +1,281 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    position:sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding-top: 17px;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    padding: 10px 22px;
+}
+
+.logo img{
+    width: 59px;
+    height: 38px;
+    margin: 5px;
+}
+
+.left-mid{
+    display: flex;
+}
+.links{
+    display: flex;
+}
+
+.container ul li{
+    list-style: none;
+}
+
+.links li a{
+    text-decoration: none;
+    padding: 6px;
+    color:black;
+    font-weight: bolder;
+    font-size: 14px;
+}
+/* .links li a:hover{
+    text-decoration: underline;
+    padding:34px 0px;
+} */
+
+.searchbar{
+    display: flex;
+    margin:25px 98px;
+}
+
+.search{
+    width:353px;
+    padding: 6px;
+    border:2px solid rgb(219, 218, 218);
+    color: rgb(139, 135, 135);
+    /* text-align:center; */
+}
+.searchbar input{
+
+    padding-left:34px;
+}
+
+.searchicon{
+    width: 23px;
+    position: relative;
+    left: 26px;
+    height: 16px;
+    top: 8px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    padding: 0 36px;
+}
+
+.right .dom img{
+    width: 21px;
+    padding: 8px;
+    display: block;
+    margin: auto;
+}
+.user{
+    margin: 0px 11px;
+    font-size: smaller;
+    position:relative;
+    bottom:10px;
+  
+}
+
+
+.demo img{
+    width: 58px;
+    padding: 8px 38px;
+    height: 43px;
+}
+
+.container1 img{
+    padding-top: 23px;
+}
+.sample1{
+    padding: 45px;
+    
+}
+
+.sour{
+    display: flex;
+    flex-direction: column;
+}
+.source{
+    display: flex;
+    justify-content:space-around;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    margin-top:172px;
+}
+.clone{
+    margin:0px 40px;
+}
+.h1{
+    margin:25px 0px;
+}
+
+.clone ul li{
+    list-style: none;
+}
+.clone ul li a{
+    font-size: 12px;
+    color:grey;
+    text-decoration: none;
+}
+
+.clone-1{
+    display: flex;
+    align-items:center;
+    margin:16px 0px;
+}
+.footimg-1{
+    height: 120px;
+    width: 128px;   
+}
+
+.footimg-2{
+    height: 35px;
+    width: 116px;
+}
+
+.original{
+    width:39px;
+
+}
+.class-1{
+    margin-left:19px;
+    margin-right: 6px;
+    font-weight: bold;
+}
+.home{
+    color:grey;
+}
+
+/* .class{
+    margin-top:78px;
+} */
+.show-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px 45px;
+}
+.write{
+    color: grey;
+}
+.show-2{
+    display:flex;
+    margin:45px 45px;
+    justify-content: space-between;
+    color: grey;
+}
+.row{
+    color:blue;
+}
+
+.section-3{
+    display: flex;
+    margin-top:41px;
+    justify-content: space-between;
+}
+
+.box1{
+    display: flex;
+    overflow-x: hidden;
+    
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+}
+.section-4{
+    display: flex;
+    margin-bottom:25px;
+    justify-content: space-between;
+}
+
+.foot{
+    background-color:rgb(238, 234, 228);
+    margin-top:-95px;
+}
+
+/* Java Script Css */
+.winter2{
+    display: flex;
+    padding: 23px;
+    margin: 7px 1px;
+    position:absolute;
+   background-color:beige;
+}
+#winter{
+    display: none;
+}
+#cold{
+   display: none;
+}
+#hot{
+   display: none;
+}
+#hotter{
+   display: none;
+}
+#colder{
+   display: none;
+}
+
+.div{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-between; */
+}
+#summer ul li{
+   list-style: none;
+}
+#summer ul li a{
+   text-decoration: none;
+   padding: 6px;
+   color:rgb(117, 116, 116);
+   font-size: 14px;
+}
+#summer ul li a:hover{
+   color:black;
+}
+
+.pink{
+   color: rgb(210, 61, 61);
+   padding:10px 0px;
+}
+.pinkish{
+   color: rgb(243, 8, 223);
+   padding:10px 0px;
+}
+.orange{
+   color: orangered;
+   padding:10px 0px;
+}
+.yellow{
+   color: rgb(255, 149, 0);
+   padding:10px 0px;
+}
+.blue{
+   color: rgb(27, 182, 182);
+   padding:10px 0px;
+}
+#summer{
+    margin:0px 34px;
+}
